@@ -28,7 +28,7 @@
 
 ## Difficultés rencontrées (optionnel)
   #### 1. Validation des URLs:
-- Problème : Certaines URLs valides étaient marquées comme invalides en raison de restrictions du navigateur ou de la source.
+- Problème : Certains URLs valides étaient marquées comme invalides en raison de restrictions du navigateur ou de la source.
 - Solution : Améliorer la gestion des erreurs en utilisant également les événements onloadedmetadata pour une validation supplémentaire.
 
 #### 2. La création de la barre de lecture sans utiliser l'attribut controls de l'élément audio:
