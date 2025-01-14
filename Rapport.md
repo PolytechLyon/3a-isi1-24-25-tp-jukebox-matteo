@@ -27,11 +27,11 @@
   - La playlist est sauvegardée dans le localStorage pour être restaurée au prochain chargement.
 
 ## Difficultés rencontrées (optionnel)
-  #### 1. Validation des URLs
+  #### 1. Validation des URLs:
 Problème : Certaines URLs valides étaient marquées comme invalides en raison de restrictions du navigateur ou de la source.
 Solution : Améliorer la gestion des erreurs en utilisant également les événements onloadedmetadata pour une validation supplémentaire.
-  #### 2. La création de la barre de lecture sans utilisé
-Problème : 
-Solution : 
+  #### 2. La création de la barre de lecture sans utiliser l'attribut controls de l'élément audio:
+Problème : Trouver un moyen d'implémenter la barre de lecture d'une autre manière.
+Solution : Créer une barre de progression personnalisée en utilisant des événements tels que timeupdate pour synchroniser la position actuelle du lecteur audio avec une barre de progression graphique. La position est ajustable en permettant à l'utilisateur de cliquer ou de faire glisser sur la barre pour modifier le temps de lecture.
 
 ## Extensions réalisées (optionnel)
