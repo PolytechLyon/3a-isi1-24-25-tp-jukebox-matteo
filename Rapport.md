@@ -35,3 +35,5 @@ Problème : Trouver un moyen d'implémenter la barre de lecture d'une autre mani
 Solution : Créer une barre de progression personnalisée en utilisant des événements tels que timeupdate pour synchroniser la position actuelle du lecteur audio avec une barre de progression graphique. La position est ajustable en permettant à l'utilisateur de cliquer ou de faire glisser sur la barre pour modifier le temps de lecture.
 
 ## Extensions réalisées (optionnel)
+##### Sauvegarde des titres publics:
+Les titres ajoutés par lien public sont sauvegardés entre rafraichissements de page. Les titres ajoutés par fichier ne sont pas sauvegardés.
