@@ -1,8 +1,8 @@
 # Compte Rendu TP Jukebox
 
 ## Binôme
-- Nom Prénom
-- Nom Prénom
+- BONTEMPS Flavien
+- CHAUCHET Mattéo
 
 ## Choix de conception et de réalisation
 
